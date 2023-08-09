@@ -7,7 +7,7 @@ import Vistas.InicioDeSesion;
 
 public class ProyectoBD {
 
-
+//se empieza a correr todo el programa
     public static void main(String[] args) {
         InicioDeSesion ini =new InicioDeSesion();
         ini.setVisible(true);
