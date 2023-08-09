@@ -6,9 +6,6 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/*
- * @author AbransZ
- */
 public class Administradores extends javax.swing.JFrame {
 
     //variables
@@ -44,7 +41,6 @@ public class Administradores extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         txtEstado = new javax.swing.JTextField();
-        jSeparator1 = new javax.swing.JSeparator();
         jLabel10 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblHabilidades = new javax.swing.JTable();
@@ -193,7 +189,6 @@ public class Administradores extends javax.swing.JFrame {
         txtEstado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtEstado.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(txtEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 317, 141, 34));
-        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 341, 441, 10));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 0, 0));
@@ -675,7 +670,6 @@ public class Administradores extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private org.jdesktop.swingx.JXPanel jXPanel1;
